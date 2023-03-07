@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Details</title> <!--Wording on the tab for the browser-->
+</head>
+<body>
+    <h1><a href="index.html">Homepage</a></h1>
+
+<!--Remember th at ol means ordered list and ul means unordered list --> 
+
+    <h3> Contact Details</h3> <!--Heading-->
+    <br>
+    <ul> 
+        <p><li>Email Address: lee.sosevarn@gmail.com</li></p> <!--li means list items, this particular format ends up as bullet points-->
+        <p><li>Mobile Phone Number: 64226208095</li></p> <!--P is paragraph-->
+        <p><li>Address: 9 Morgan Street Johnsonville Wellington</li></p>
+    </ul>
+
+<br> <!--br is a line break-->
+<hr size="3" noshade>
+<br>
+   
+    <form action="mailto:lee.sosevarn@gmail.com" method="post" enctype="text/plain">  <!--When action="index.html", whatever button on this page is pressed will be automatically sent to the homepage,
+    restructure that it doesn't happen, for this project we are changing to mail function-->
+      
+        <label>Your Name:</label>
+        <input name="text" name="yourName" value=""> <!-- This particular input creates a box like figure infront of the label 'Your Name'-->
+        <br>
+        <label>Your Email:</label>
+        <input type="email" name="yourEmail" value=""><br>
+        <label>Your Message:</label><br>
+        <textarea name="yourMessage" rows="10" cols="30"></textarea><br> <!--Rows determine how tall and columns determine how wide-->
+        <input type="submit" name=""><br> <!-- this input type creates a submit button-->
+   
+    </form>
+
+
+</body>
+</html>
